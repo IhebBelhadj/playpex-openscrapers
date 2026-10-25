@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "repository": {
+    "id": "openscrapers",
+    "name": "OpenScrapers",
+    "key": "ed25519:H32tbULm2xtiwke9LH852pXC99vKppMPScXlNYUfs60="
+  },
+  "generatedAt": "2026-10-25T20:43:55.872Z",
+  "plugins": [
+    {
+      "id": "openscrapers",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "url": "https://ihebbelhadj.github.io/playpex-openscrapers/openscrapers-1.0.0.ppx",
+          "sha256": "ee5f013e7170d0e3b3d109d6c7a9e4e3b48b2d9b15a98860b56bd4609b9e1193",
+          "size": 21022,
+          "releasedAt": "2026-10-25",
+          "api": {
+            "server": "^1"
+          },
+          "audience": "everyone",
+          "permissions": {
+            "network": [
+              "bnwmovies.com",
+              "archive.org",
+              "*.archive.org",
+              "api.netzkino.de.simplecache.net",
+              "pmd.netzkino-seite.netzkino.de",
+              "www.limetorrents.fun",
+              "www.limetorrents.info",
+              "www.torrentdownload.info",
+              "nyaa.si"
+            ],
+            "sources": [
+              "http",
+              "magnet"
+            ],
+            "hooks": [
+              "play.collect",
+              "releases.providers",
+              "sources.search"
+            ]
+          },
+          "lifecycle": "stable"
+        }
+      ],
+      "name": "OpenScrapers",
+      "publisher": {
+        "name": "Playpex"
+      },
+      "listing": {
+        "summary": "Direct video files and torrents from the sites OpenScrapers read that still answer, each one switchable.",
+        "description": "A port of the Kodi add-on OpenScrapers (GPL-3.0, a4k-openproject) to a Playpex plugin. Of its 130 scrapers, the ones whose sites still answer and give something Playpex plays: direct files from BnW Movies (public-domain black-and-white films) and netzkino (free German streaming, licensed for Germany, Austria and Switzerland only: off by default), and torrents from LimeTorrents, TorrentDownload and Nyaa (anime). Sites that only link to file hosts, need an account, hide behind Cloudflare or are gone are left out.",
+        "disclaimer": "Streaming copyrighted content may be illegal where you live. Educational project. The scrapers' logic comes from OpenScrapers (GPL-3.0).",
+        "license": "GPL-3.0 (OpenScrapers)",
+        "categories": [
+          "sources",
+          "streams"
+        ]
+      }
+    }
+  ]
+}
